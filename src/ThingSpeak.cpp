@@ -36,6 +36,8 @@ bool ThingSpeak::commit() {
   client_.print(post_str_);
   client_.stop();
 
+  // TODO check response
+
   return true;
 }
 
